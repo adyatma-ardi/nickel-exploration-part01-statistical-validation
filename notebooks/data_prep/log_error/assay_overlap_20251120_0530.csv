@@ -1,0 +1,11 @@
+sample_id,hole_id,depth_from,depth_to,core_length,cr_%,ni,fe,mgo,sio2,invalid_interval,overlap,ni_unrealistic,fe_unrealistic,mgo_unrealistic,sio2_unrealistic
+B1/F07-008i/JAS/11,F07-008i,10.0,11.0,1.0,1,0.45,10.386,27.376,37.465,False,True,False,False,False,False
+B1/F07-008i/JAS/12,F07-008i,10.32,12.0,1.0,0.595238095,0.404,9.62,28.888,37.043,False,True,False,False,False,False
+B1/F07-008i/JAS/13,F07-008i,11.0,13.0,1.0,0.5,0.369,8.233,31.224,38.535,False,True,False,False,False,False
+B1/F07-008i/JAS/14,F07-008i,12.0,14.0,1.0,0.5,0.292,6.231,32.485,41.139,False,True,False,False,False,False
+B1/F08-065/JAS/18,F08-065,10.0,10.65,0.65,1,0.33,7.52,38.02,43.59,False,True,False,False,False,False
+B1/F08-145/JAS/12,F08-145,10.0,12.0,2.0,1,0.253,5.54,32.882,36.707,False,True,False,False,False,False
+B1/F09-072/JAS/15,F09-072,13.0,13.53,0.53,1,0.31,6.52,31.71,40.68,False,True,False,False,False,False
+B1/F09-134A/JAS/08,F09-134A,7.0,7.75,0.75,1,1.22,13.26,19.73,37.29,False,True,False,False,False,False
+B1/F09-166/JAS/16,F09-166,11.2,11.74,0.54,1,0.51,5.84,24.28,39.99,False,True,False,False,False,False
+B1/F09-166/JAS/20,F09-166,11.56,13.0,1.44,1,0.74,8.71,23.58,39.21,False,True,False,False,False,False

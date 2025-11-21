@@ -1,0 +1,31 @@
+flowchart TD
+    A[Start<br>Raw Assay Dataset (2021, 2023–2024)] --> B[Data Import<br>(CSV/SQL/Geodatabase)]
+
+    B --> C[Data Cleaning]
+    C --> C1[• Handle missing values<br>• Remove negative values<br>• Standardize units]
+
+    C1 --> D[Lithology Domain Tagging]
+    D --> D1[• Map codes (SOIL, LIM, SAP, RSAP, BRK)<br>• Fix inconsistent nomenclature]
+
+    D1 --> E[Compute Basic Global Statistics]
+    E --> E1[• Mean, Median, Min, Max<br>• Std Dev, CV, Range<br>• By element]
+
+    E1 --> F[Outlier Detection]
+    F --> F1[• Z-score (|Z|>3?)<br>• Tukey IQR fences<br>• Domain-wise check]
+
+    F1 --> G[Distribution Assessment]
+    G --> G1[• Histogram + KDE<br>• ECDF curves<br>• Domain overlay]
+
+    G1 --> H[Variability Analysis]
+    H --> H1[• CV comparison per year<br>• Domain-level variability]
+
+    H1 --> I[Correlation Structure]
+    I --> I1[• Pearson matrix<br>• Pairplot<br>• Domain-colored scatter]
+
+    I1 --> J[Cross-Year Comparison]
+    J --> J1[• 2021 vs 2023/2024: Mean shifts<br>• KDE overlay<br>• ECDF comparison]
+
+    J1 --> K[Global Interpretation]
+    K --> K1[• Variability acceptable?<br>• Domain consistency?<br>• Any systematic shift?]
+
+    K1 --> L[End: Global Statistical Summary]

@@ -1,0 +1,11 @@
+sample_id,hole_id,depth_from,depth_to,core_length,cr_%,lith,invalid_interval,overlap
+B1/F07-008i/JAS/11,F07-008i,10.0,11.0,1.0,1,SAP,False,True
+B1/F07-008i/JAS/12,F07-008i,10.32,12.0,1.0,0.595238095,SAP,False,True
+B1/F07-008i/JAS/13,F07-008i,11.0,13.0,1.0,0.5,BRK,False,True
+B1/F07-008i/JAS/14,F07-008i,12.0,14.0,1.0,0.5,BRK,False,True
+B1/F08-065/JAS/18,F08-065,10.0,10.65,0.65,1,SAP,False,True
+B1/F08-145/JAS/12,F08-145,10.0,12.0,2.0,1,BRK,False,True
+B1/F09-072/JAS/15,F09-072,13.0,13.53,0.53,1,SAP,False,True
+B1/F09-134A/JAS/08,F09-134A,7.0,7.75,0.75,1,SAP,False,True
+B1/F09-166/JAS/16,F09-166,11.2,11.74,0.54,1,BLD,False,True
+B1/F09-166/JAS/20,F09-166,11.56,13.0,1.44,1,SAP,False,True
